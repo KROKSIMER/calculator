@@ -1,0 +1,44 @@
+.calcBox{
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    min-width: 416px;
+    border: 0.2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #262c3c;
+    box-shadow: 0 0 30px 1px #808698;
+}
+.classicButton {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px !important;
+    color: white !important;
+    margin: 9px !important;
+    transition: all 0.2s !important;
+    font-size: 4em;
+    border: 0px solid #3c4458 !important;
+}
+.classicButton:hover {
+    background-color: #2f3648 !important;
+    border: 0.2px solid #3c4458 !important;
+}
+.counterInput {
+    color: white !important;
+    border: none !important;
+    text-align: right;
+    border: none !important;
+    font-size: 3em !important;
+    padding: 15px;
+    padding-top: -30px;
+}
+.result {
+    font-size: xx-large !important;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 500;
+    color: silver;
+}
+.operantButton {
+    color: rgb(0, 162, 255) !important;
+}
